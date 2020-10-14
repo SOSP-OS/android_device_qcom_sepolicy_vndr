@@ -30,6 +30,8 @@
 ## This file defines the permissions that ssg_apps can carry
 
 type ssg_app, domain;
+type vendor_dpmtcm_socket, domain;
+type vendor_dpmd, domain;
 
 app_domain(ssg_app)
 net_domain(ssg_app)

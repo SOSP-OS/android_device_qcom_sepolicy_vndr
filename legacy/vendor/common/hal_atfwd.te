@@ -25,6 +25,6 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
+type vendor_hal_atfwd_hwservice ,domain;
 binder_call(atfwd, vendor_qtelephony);
 allow atfwd vendor_hal_atfwd_hwservice:hwservice_manager find;

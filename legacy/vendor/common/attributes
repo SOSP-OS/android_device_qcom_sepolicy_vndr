@@ -129,3 +129,15 @@ attribute hal_dataconnection_qti_server;
 attribute hal_capabilityconfigstore_qti;
 attribute hal_capabilityconfigstore_qti_client;
 attribute hal_capabilityconfigstore_qti_server;
+
+# Vendor Hals
+attribute vendor_hal_factory_qti;
+attribute vendor_hal_factory_qti_server;
+attribute vendor_hal_qteeconnector_server;
+attribute vendor_hal_qteeconnector;
+attribute vendor_hal_factory_qti_client;
+attribute vendor_hal_diaghal_client;
+attribute vendor_hal_diaghal;
+attribute vendor_hal_dspmanager_client;
+attribute vendor_hal_debugutils_server;
+attribute vendor_hal_debugutils;

@@ -25,6 +25,8 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+type vendor_hal_qteeconnector_client, domain;
+
 #define the type
 type vendor_hal_qteeconnector_qti, domain;
 
